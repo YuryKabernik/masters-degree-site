@@ -1,0 +1,20 @@
+<header class="masthead mb-auto">
+  <div class="inner">
+    <h5 class="masthead-brand">Коберник-Березовский Юрий</h5>
+    <nav class="nav nav-masthead justify-content-center">
+      <a id="about-me" [routerLink]="['/about-me']" routerLinkActive="active" class="nav-link">О себе</a>
+      <a id="essay" [routerLink]="['/essay']" routerLinkActive="active" class="nav-link">Реферат</a>
+      <a id="presentation" [routerLink]="['/presentation']" routerLinkActive="active" class="nav-link">Презентация</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="mastfoot mt-auto">
+  <div class="inner">
+    <p>Bootstrap template created by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+  </div>
+</footer>
